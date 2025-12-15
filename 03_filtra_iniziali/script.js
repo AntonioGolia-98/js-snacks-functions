@@ -13,8 +13,6 @@ function getLettera (names){
         let nomeCorrente = names[i];
         if (nomeCorrente[0] === maiuscola){
            nomiRichiesti.push(nomeCorrente);
-        }else {
-            console.log("no");   
         }
     } 
     return nomiRichiesti;
